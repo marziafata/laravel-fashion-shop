@@ -13,4 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'ClothesController@index');
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/clothes', 'ClothController@index');
+
+Route::get('/store', 'ClothController@store');
