@@ -16,3 +16,4 @@ class ClothController extends Controller
         // è la stessa cosa: arriva alla view la variabile vestiti
     }
 }
+?>

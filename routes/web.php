@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('/clothes', 'ClothController@index');
 
 Route::get('/store', 'ClothController@store');
+
+?>
